@@ -40,4 +40,5 @@ let yourFatherName = prompt('По-батькові');
 let yourAge = prompt('Ваш вік');
 console.log(yourFirstName);
 console.log(yourFatherName);
-console.log(yourAge);
+console.log(+yourAge);
+
