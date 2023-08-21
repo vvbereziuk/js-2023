@@ -202,8 +202,9 @@ let coursesAndDurationArray = [
 ];
 
 for (let i = 0; i < coursesAndDurationArray.length; i++) {
-    if(coursesAndDurationArray[i].monthDuration > 5){
-        console.log([i],'Супер!')
+    if (coursesAndDurationArray[i].monthDuration > 5) {
+        console.log([i], 'Супер!')
     }
 }
+
 
