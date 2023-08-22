@@ -131,49 +131,49 @@ for (let j = 0; j <= 100; j += 2) {
 // стоврити масив книжок (назва, кількість сторінок, автори , жанри).
 let books = [
     {
-        title: "Book 1",
+        title: "Greenlights",
         pages: 200,
         authors: ["Author 1", "Author 2"],
         genres: ["Fiction", "Mystery", "Suspense"]
     },
     {
-        title: "Book 2",
+        title: "Game_of_Thrones",
         pages: 350,
         authors: ["Author 3"],
         genres: ["Fantasy", "Adventure", "Science Fiction", "Romance"]
     },
     {
-        title: "Book 3",
+        title: "The_Great_Gatsby",
         pages: 150,
         authors: ["Author 4", "Author 5"],
         genres: ["Science Fiction"]
     },
     {
-        title: "Book 4",
+        title: "The_Da_Vinci_Code",
         pages: 200,
         authors: ["Author 1", "Author 2"],
         genres: ["Fiction"]
     },
     {
-        title: "Book 5",
+        title: "1984",
         pages: 350,
         authors: ["Author 3"],
         genres: ["Fantasy", "Adventure", "Mystery", "Fiction", "Historical Fiction"]
     },
     {
-        title: "Book 6",
+        title: "To_Kill_a_Mockingbird",
         pages: 150,
         authors: ["Author 4", "Author 5"],
         genres: ["Science Fiction"]
     },
     {
-        title: "Book 7",
+        title: "Harry_Potter",
         pages: 280,
         authors: ["Author 6"],
         genres: ["Historical Fiction", "Romance"]
     },
     {
-        title: "Book 8",
+        title: "Pride_and_Prejudice",
         pages: 410,
         authors: ["Author 7"],
         genres: ["Thriller"]
@@ -198,8 +198,16 @@ for (let i = 1; i < books.length; i++) {
     }
 }
 document.write(`<div>Книга де найбільше жанрів: ${bookMaxGenres.title}  в ній ${bookMaxGenres.genres.length} жанрів</div>`);
-// - знайти книжку/ки з найдовшою назвою
 
+// - знайти книжку/ки з найдовшою назвою
+let bookMaxName = books[0];
+for (let i = 0; i < bookMaxName.length; i++) {
+    if (books[i].title.length > bookMaxName.length) {
+        bookMaxName = books[i];
+
+    }
+}
+document.write(`<div>Книга з найдовшою назвою: ${bookMaxName.title}</div>`);
 
 // - знайти книжку/ки які писали 2 автори
 // - знайти книжку/ки які писав 1 автор
