@@ -133,7 +133,7 @@ let books = [
     {
         title: "Greenlights",
         pages: 200,
-        authors: ["Author 1", "Author 2"],
+        authors: ["Author 1", "Author 2", "Author 3", "Author 4"],
         genres: ["Fiction", "Mystery", "Suspense"]
     },
     {
@@ -200,15 +200,11 @@ for (let i = 1; i < books.length; i++) {
 document.write(`<div>Книга де найбільше жанрів: ${bookMaxGenres.title}  в ній ${bookMaxGenres.genres.length} жанрів</div>`);
 
 // - знайти книжку/ки з найдовшою назвою
-let bookMaxName = books[0];
-for (let i = 0; i < bookMaxName.length; i++) {
-    if (books[i].title.length > bookMaxName.length) {
-        bookMaxName = books[i];
 
-    }
-}
-document.write(`<div>Книга з найдовшою назвою: ${bookMaxName.title}</div>`);
 
-// - знайти книжку/ки які писали 2 автори
-// - знайти книжку/ки які писав 1 автор
+// - знайти книжку яку писали 2 автори
+
+
+// - знайти книжку яку писав 1 автор
+
 
