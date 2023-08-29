@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf778810-a3ca-4a89-b75f-956e8f2e65b4" name="Changes" comment="hw4">
-      <change afterPath="$PROJECT_DIR$/lesson5/index5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/script5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/index6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/script6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/script4.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/script4.js" afterDir="false" />
-    </list>
+    <list default="true" id="bf778810-a3ca-4a89-b75f-956e8f2e65b4" name="Changes" comment="hw5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +115,7 @@
       <workItem from="1693119993635" duration="3474000" />
       <workItem from="1693242720613" duration="1140000" />
       <workItem from="1693244029269" duration="2216000" />
-      <workItem from="1693246663192" duration="2164000" />
+      <workItem from="1693246663192" duration="2192000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <created>1692126471897</created>
@@ -173,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693068737613</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hw5">
+      <created>1693250855891</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693250855891</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +195,7 @@
     <MESSAGE value="hw3" />
     <MESSAGE value="hw3/add" />
     <MESSAGE value="hw4" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw4" />
+    <MESSAGE value="hw5" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw5" />
   </component>
 </project>

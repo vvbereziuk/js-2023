@@ -187,12 +187,12 @@ console.log(minNumber(numbers))
 // - створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
 let numbersArr = [25, 10, 0, -25, -10, 100, 15];
 
-function sumNumbers(arr) {
+let sumNumbers = (arr) => {
     let sum = 0
     for (let i = 0; i < arr.length; i++) {
         sum = sum + arr[i]
         //або
-
+        // sum += arr[i]
     }
     return sum
 }
@@ -203,7 +203,7 @@ console.log(sumNumbers(numbersArr))
 // Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
 let numbersArr1 = [25, 10, 0, -25, -10, 100, 15]
 
-function swap(arr, index1, index2) {
+let swap = (arr, index1, index2) => {
     let temp = arr[index1]
     arr[index1] = arr[index2]
     arr[index2] = temp
@@ -215,7 +215,7 @@ console.log(swap(numbersArr1, 0, 1))
 
 // - Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 // Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
-function exchange(sum, currencyValues, exchangeCurrency) {
+let exchange = (sum, currencyValues, exchangeCurrency) => {
     for (let i = 0; i < currencyValues.length; i++) {
         if (currencyValues[i].currency === exchangeCurrency) {
             sum = sum / currencyValues[i].value
