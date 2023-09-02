@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf778810-a3ca-4a89-b75f-956e8f2e65b4" name="Changes" comment="hw5" />
+    <list default="true" id="bf778810-a3ca-4a89-b75f-956e8f2e65b4" name="Changes" comment="hw5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/script6.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/script6.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +119,22 @@
       <workItem from="1693242720613" duration="1140000" />
       <workItem from="1693244029269" duration="2216000" />
       <workItem from="1693246663192" duration="2192000" />
+      <workItem from="1693338648380" duration="299000" />
+      <workItem from="1693413078207" duration="1667000" />
+      <workItem from="1693420948245" duration="95000" />
+      <workItem from="1693421651566" duration="4770000" />
+      <workItem from="1693641357188" duration="61000" />
+      <workItem from="1693641453800" duration="670000" />
+      <workItem from="1693648921437" duration="1160000" />
+      <workItem from="1693650268715" duration="361000" />
+      <workItem from="1693650693022" duration="245000" />
+      <workItem from="1693650979692" duration="2384000" />
+      <workItem from="1693653506521" duration="41000" />
+      <workItem from="1693653559119" duration="200000" />
+      <workItem from="1693653771388" duration="218000" />
+      <workItem from="1693654000552" duration="58000" />
+      <workItem from="1693654072118" duration="314000" />
+      <workItem from="1693654400566" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <created>1692126471897</created>
@@ -173,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693250855891</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hw5">
+      <created>1693338901008</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693338901008</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
