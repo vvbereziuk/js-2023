@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf778810-a3ca-4a89-b75f-956e8f2e65b4" name="Changes" comment="hw5">
+    <list default="true" id="bf778810-a3ca-4a89-b75f-956e8f2e65b4" name="Changes" comment="hw6">
+      <change afterPath="$PROJECT_DIR$/lesson6/add/indexAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/add/scriptAdd.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson6/script6.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/script6.js" afterDir="false" />
     </list>
@@ -42,7 +44,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bereziuk_vv/IdeaProjects/js-2023&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bereziuk_vv/IdeaProjects/js-2023/lesson6/add&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -53,6 +55,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson6/add" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -135,6 +138,21 @@
       <workItem from="1693654000552" duration="58000" />
       <workItem from="1693654072118" duration="314000" />
       <workItem from="1693654400566" duration="325000" />
+      <workItem from="1693654739300" duration="32000" />
+      <workItem from="1693725466496" duration="50000" />
+      <workItem from="1693725532310" duration="398000" />
+      <workItem from="1693726062070" duration="1738000" />
+      <workItem from="1693727870536" duration="107000" />
+      <workItem from="1693727990354" duration="84000" />
+      <workItem from="1693728085716" duration="369000" />
+      <workItem from="1693728550451" duration="2103000" />
+      <workItem from="1693760385859" duration="116000" />
+      <workItem from="1693760556492" duration="843000" />
+      <workItem from="1693761498176" duration="185000" />
+      <workItem from="1693761696641" duration="285000" />
+      <workItem from="1693761993705" duration="2341000" />
+      <workItem from="1693764354053" duration="440000" />
+      <workItem from="1693764806279" duration="3533000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <created>1692126471897</created>
@@ -199,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693338901008</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="hw6">
+      <created>1693654758584</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693654758584</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +247,7 @@
     <MESSAGE value="hw3/add" />
     <MESSAGE value="hw4" />
     <MESSAGE value="hw5" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw5" />
+    <MESSAGE value="hw6" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw6" />
   </component>
 </project>
