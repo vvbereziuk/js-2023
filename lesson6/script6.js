@@ -19,6 +19,8 @@ console.log(str4.toLowerCase(), str5.toLowerCase(), str6.toLowerCase())
 // - Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
 let str7 = ' dirty string   '
 console.log(str7.trim());
+// let result = str7.split(' ').filter((value) => value.length).join(' ')
+// console.log(str7);
 
 
 // - На пишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
@@ -38,7 +40,7 @@ let arrToString = arrNumb.map(value => value.toString())
 // let arrToString = arrNumb.map(arrNumb => '' + arrNumb);
 console.log(arrToString);
 
-// - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки
+// - створити функцію sortNums(direction), яка приймає масив чисел, та сортує його від більшого до меншого, або навпаки
 // в залежності від значення аргументу direction.
 // let nums = [11, 21, 3];
 // sortNums(nums,'ascending') // [3,11,21]
@@ -144,7 +146,7 @@ let cards = [
 
 ]
 // - знайти піковий туз
-let diamondsAce = cards.find(val => val.cardSuit === 'spades' && val.value === 'A');
+let diamondsAce = cards.filter(val => val.value === 'A' && val.cardSuit === 'spades');
 console.log(diamondsAce)
 
 // - всі шістки
@@ -160,7 +162,7 @@ let diamondsCards = cards.filter(val => val.cardSuit === 'diamonds')
 console.log(diamondsCards);
 
 // - всі трефи від 9 та більше
-let clubsCards = cards.filter(val => val.cardSuit === 'clubs' && val.value >= '9')
+let clubsCards = cards.filter(val => val.cardSuit === 'clubs' && ['9', '10', 'J', 'Q', 'K', 'A'].includes(val.value))
 console.log(clubsCards);
 
 
@@ -173,23 +175,30 @@ console.log(clubsCards);
 //     hearts:[],
 //     clubs:[]
 // }
-let cardSuit = cards.reduce((accum, currentValue) => {
-    if (currentValue.cardSuit === 'spades') {
-        accum.spades.push(currentValue)
-    }
-    if (currentValue.cardSuit === 'diamonds') {
-        accum.diamonds.push(currentValue)
-    }
-    if (currentValue.cardSuit === 'hearts') {
-        accum.hearts.push(currentValue)
-    }
-    if (currentValue.cardSuit === 'clubs') {
-        accum.clubs.push(currentValue)
-    }
-    return accum
-}, {spades: [], diamonds: [], hearts: [], clubs: []})
-console.log(cardSuit);
+// let cardSuit = cards.reduce((accum, currentValue) => {
+//     if (currentValue.cardSuit === 'spades') {
+//         accum.spades.push(currentValue)
+//     }
+//     if (currentValue.cardSuit === 'diamonds') {
+//         accum.diamonds.push(currentValue)
+//     }
+//     if (currentValue.cardSuit === 'hearts') {
+//         accum.hearts.push(currentValue)
+//     }
+//     if (currentValue.cardSuit === 'clubs') {
+//         accum.clubs.push(currentValue)
+//     }
+//     return accum
+// }, {spades: [], diamonds: [], hearts: [], clubs: []})
+// console.log(cardSuit);
 
+// or
+
+let cardSuit1 = cards.reduce((acc, curr) => {
+    acc[curr.cardSuit].push(curr);
+    return acc;
+}, {spades: [], diamonds: [], hearts: [], clubs: []})
+console.log(cardSuit1);
 
 // =========================
 //     взяти з arrays.js (який лежить в папці 2023 plan) масив coursesArray
