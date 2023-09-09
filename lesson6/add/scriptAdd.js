@@ -7,7 +7,7 @@ function cutString(str, n) {
     return arr
 }
 
-document.write(cutString('наслаждение', 3));
+console.log(cutString('наслаждение', 3));
 
 // - Напишіть функцію delete_characters(str, length), яка повертає підрядок, що складається із зазначеної кількості символів.
 //     let str = 'Каждый охотник желает знать';
@@ -18,7 +18,7 @@ function delete_characters(str, length) {
     return str.slice(0, length)
 }
 
-document.write(delete_characters(str, 7));
+console.log(delete_characters(str, 7));
 
 
 // - Напишіть функцію insert_dash(str), яка приймає рядок str як аргумент і вставляє тире (-) між словами. При цьому всі символи рядка необхідно перевести у верхній регістр.
@@ -30,7 +30,7 @@ function insert_dash(str) {
     return str.toUpperCase().split(' ').join('-')
 }
 
-document.write(insert_dash(str1))
+console.log(insert_dash(str1))
 
 // - Напишіть функцію, яка приймає рядок як аргумент і перетворює регістр першого символу рядка з нижнього регістру у верхній.
 //
@@ -51,7 +51,7 @@ function normalize(str) {
     return arr1.join(' ')
 }
 
-document.write(normalize('jeki chan'))
+console.log(normalize('jeki chan'))
 
 //     - створити функцію, яка генерує масив рандомних числових цілих значень в діапазоні від 0 до 100.
 function randomNums() {
@@ -185,7 +185,7 @@ function count(str, stringsearch) {
     }
 }
 
-document.write(count(str2, symb))
+console.log(count(str2, symb))
 
 
 // - Напишіть функцію cutString(str, n), яка видаляє зайві слова з рядка str, залишивши у ній n слів.
@@ -197,7 +197,7 @@ function cutStringWord(str, n) {
     return str.split(' ').slice(0, n).join(' ')
 }
 
-document.write(cutStringWord(str3, 5))
+console.log(cutStringWord(str3, 5))
 
 // -стоврити масив книжок (назва, кількість сторінок, автори , жанри).
 
@@ -253,7 +253,7 @@ let books = [
 ];
 
 // -знайти найбльша кількість сторінок.
-let maxPageCount = function() {
+let maxPageCount = function () {
     let max = 0;
     for (const value of books) {
         if (value.pageCount > max) {

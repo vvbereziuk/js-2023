@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf778810-a3ca-4a89-b75f-956e8f2e65b4" name="Changes" comment="hw6">
+      <change afterPath="$PROJECT_DIR$/lesson8/index8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/script8.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson6/script6.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/script6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/add/scriptAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/add/scriptAdd.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -42,19 +45,24 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bereziuk_vv/IdeaProjects/js-2023/lesson6/add&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bereziuk_vv/IdeaProjects/js-2023&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lesson6/add" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lesson6/add" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -152,7 +160,21 @@
       <workItem from="1693764354053" duration="440000" />
       <workItem from="1693764806279" duration="3720000" />
       <workItem from="1693768579908" duration="66000" />
-      <workItem from="1693847512428" duration="3094000" />
+      <workItem from="1693847512428" duration="5103000" />
+      <workItem from="1693929939330" duration="492000" />
+      <workItem from="1693930865885" duration="313000" />
+      <workItem from="1693931543877" duration="24000" />
+      <workItem from="1693931794349" duration="838000" />
+      <workItem from="1693932974670" duration="738000" />
+      <workItem from="1693933821551" duration="1021000" />
+      <workItem from="1694247230949" duration="380000" />
+      <workItem from="1694247622528" duration="210000" />
+      <workItem from="1694247888554" duration="62000" />
+      <workItem from="1694247962084" duration="2245000" />
+      <workItem from="1694252384924" duration="1716000" />
+      <workItem from="1694254296253" duration="2482000" />
+      <workItem from="1694256819450" duration="782000" />
+      <workItem from="1694257614776" duration="2617000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <created>1692126471897</created>
@@ -231,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693768539615</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="hw6">
+      <created>1693851600972</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1693851600972</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
