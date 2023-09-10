@@ -108,7 +108,6 @@ class Car2 {
         this.info = () => console.log(`${this.model} ${this.maker} ${this.maxSpeed} ${this.engineVolume}`)
         this.increaseMaxSpeed = (newSpeed) => console.log(this.maxSpeed += newSpeed);
         this.changeYear = (newValue) => console.log(this.year = newValue);
-        // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
         this.addDriver = (driver) => console.log(this.driver = driver);
     }
 }
