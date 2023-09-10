@@ -105,6 +105,24 @@ console.log(mouthDurationId)
 //     color:'', // 'red','black'
 // }
 
+// let cardSuit = ['spade', 'diamond','heart', 'clubs'];
+// let cardValue = [6, 7, 8, 9, 10, 'ace','jack','queen','king','joker']
+// let cardColor = ['red','black']
+//
+// let cards = []
+// for (const suit of cardSuit) {
+//     for (const value of cardValue) {
+//         for (const color of cardColor) {
+//             cards.push({suit: suit, value: value, color: color})
+//         }
+//     }
+// }
+//
+// console.log(cards)
+
+
+
+
 let cards = [
     {value: '6', cardSuit: 'diamonds', color: 'red'},
     {value: '6', cardSuit: 'hearts', color: 'red'},
@@ -142,7 +160,6 @@ let cards = [
     {value: 'A', cardSuit: 'clubs', color: 'black'},
     {value: 'A', cardSuit: 'diamonds', color: 'red'},
     {value: 'A', cardSuit: 'spades', color: 'black'}
-
 
 ]
 // - знайти піковий туз
