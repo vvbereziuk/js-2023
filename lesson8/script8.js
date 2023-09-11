@@ -111,6 +111,7 @@ class Car2 {
         this.addDriver = (driver) => console.log(this.driver = driver);
     }
 }
+
 car2 = new Car2('X7', 'BMW', 2023, 250, 3);
 car2.drive()
 car2.info()
@@ -125,11 +126,42 @@ console.log(car2);
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 
-function Cenderella(name, age, size) {
-    this.name = name;
-    this.age = age;
-    this.size = size;
+
+class Human {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
 }
+
+class Cenderella extends Human {
+    constructor(name, age, footsize) {
+        super(name, age)
+        this.footsize = footsize;
+    }
+
+}
+
+
+class Prince extends Human {
+    constructor(name, age, bootsize) {
+        super(name, age)
+        this.bootsize = bootsize;
+    }
+    findPrinces1(arr) {
+        for (const cenderella of arr) {
+            if (cenderella.footsize === this.bootsize){
+                return cenderella
+            }
+
+        }
+    }
+
+    findPrinces2(arr) {
+         return arr.find((cenderella) => cenderella.footsize === this.bootsize)
+    }
+}
+
 
 let searhCenderella = [
     new Cenderella('Yuliia', 35, 36),
@@ -144,18 +176,11 @@ let searhCenderella = [
     new Cenderella('Katia', 18, 37)
 ];
 
+let prince = new Prince('Valentyn', 36, 36 )
+
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
-
-let myCenderella = () => {
-    for (const item of searhCenderella) {
-        if (item.size === 36) {
-            return `My Cenderela is ${item.name}`;
-        }
-    }
-}
-console.log(myCenderella());
-
+console.log(prince.findPrinces1(searhCenderella));
 
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
-let cinderella = searhCenderella.find(value => value.size === 36);
-console.log(cinderella);
+
+console.log(prince.findPrinces2(searhCenderella));
