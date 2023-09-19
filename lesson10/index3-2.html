@@ -1,0 +1,25 @@
+// Є сторінка index.html (назва довільна), при відвідуванні якої в локальне сховще, в масив sessions зберігається
+інформація про дату та час відвідування сторінки. Є ще сторінка sessions.html (назва довільна), при відвідуванні якої
+потрібно відмалювати всю інформацію про відвідування сторінки index.html. Інфу НЕ виводити в консоль, а побудувати дом
+структуру під кожну сессію
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    const json = localStorage.getItem('sessions');
+    const sessions = json ? JSON.parse(json) : [];
+
+    for (const session of sessions) {
+        const wrapper = document.createElement('div');
+        wrapper.innerText = session.date;
+        document.body.appendChild(wrapper)
+    }
+</script>
+</body>
+</html>

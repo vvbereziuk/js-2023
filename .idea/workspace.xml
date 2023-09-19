@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf778810-a3ca-4a89-b75f-956e8f2e65b4" name="Changes" comment="hw8">
-      <change afterPath="$PROJECT_DIR$/lesson9/index9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9/script9.js" afterDir="false" />
+    <list default="true" id="bf778810-a3ca-4a89-b75f-956e8f2e65b4" name="Changes" comment="hw9">
+      <change afterPath="$PROJECT_DIR$/lesson10/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/index3-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/index3-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/index6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/index7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/index8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/script9.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/script9.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +26,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,28 +46,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bereziuk_vv/IdeaProjects/js-2023&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/bereziuk_vv/IdeaProjects/js-2023/lesson10",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson10" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lesson6/add" />
     </key>
@@ -180,7 +189,15 @@
       <workItem from="1694456881804" duration="2281000" />
       <workItem from="1694463070775" duration="193000" />
       <workItem from="1694463298995" duration="267000" />
-      <workItem from="1694463577642" duration="2475000" />
+      <workItem from="1694463577642" duration="2744000" />
+      <workItem from="1694708069266" duration="661000" />
+      <workItem from="1694708744124" duration="2137000" />
+      <workItem from="1694715444321" duration="3830000" />
+      <workItem from="1694803025430" duration="1726000" />
+      <workItem from="1694871934327" duration="1749000" />
+      <workItem from="1695022327723" duration="919000" />
+      <workItem from="1695056527268" duration="1707000" />
+      <workItem from="1695143451592" duration="1040000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <created>1692126471897</created>
@@ -294,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694462006240</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="hw9">
+      <created>1694466223074</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1694466223074</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,15 +343,15 @@
     <MESSAGE value="hw5" />
     <MESSAGE value="hw6" />
     <MESSAGE value="hw8" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw8" />
+    <MESSAGE value="hw9" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lesson9/script9.js</url>
-          <line>122</line>
-          <properties lambdaOrdinal="-1" />
+          <line>123</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

@@ -1,4 +1,3 @@
-
 // - створити блок,
 //     - додати йому класи wrap, collapse, alpha, beta
 // - додати стилі(довільні значення) : колір фону, колір тексту, розмір тексту
@@ -35,11 +34,12 @@ let coursesAndDurationArray = [
 // Завдання робити через цикли.
 for (const coursesElement of coursesAndDurationArray) {
     let divElement = document.createElement('div');
-    divElement.innerText = (`${coursesElement.title} ${coursesElement.monthDuration}`);
+    divElement.innerText = (`title: ${coursesElement.title},  monthDuration:${coursesElement.monthDuration}`);
     document.body.appendChild(divElement);
 }
 
-// За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>  з title  елементу, та <p class='description'> з monthDuration елементу.
+// За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>  з title
+// елементу, та <p class='description'> з monthDuration елементу.
 //     Завдання робити через цикли.
 
 
@@ -163,7 +163,8 @@ let coursesArray1 = [
 // Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись значення окремих властивостей, для властивості modules зробити список з елементами
 // Приклад структири знаходиться у файлі example.png
 for (const courses of coursesArray1) {
-    let coursesEl = document.createElement('course');
+
+    let coursesEl = document.createElement('div');
 
     let titleEl = document.createElement('h1');
     titleEl.innerText = courses.title;
@@ -182,6 +183,5 @@ for (const courses of coursesArray1) {
     }
     coursesEl.append(titleEl, monthEl, hourEl, modulesEl);
     document.body.appendChild(coursesEl);
+
 }
-
-
