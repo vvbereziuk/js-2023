@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.divContainer{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+.divUsers{
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    width: 450px;
+    height: 100px;
+    border:  solid 4px;
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+    box-shadow: 5px 5px 10px rgb(112, 111, 111);
+    transition: 0.5s;
+
+}
+.divUsers:hover{
+    transition: 0.5s;
+    transform: scale(1.03);
+}
+.userId{
+    text-align: center;
+    color: #d2d0d0;
+    width: 100%;
+}
+
+.userButton{
+    color: #d2d0d0;
+    border: solid 2px;
+    border-radius: 10px;
+    height: 30px;
+    width: 75%;
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    transition: 0.5s;
+}
+.userButton:hover{
+    transition: 0.5s;
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+    color: #3b3a3a;
+}
