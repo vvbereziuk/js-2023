@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf778810-a3ca-4a89-b75f-956e8f2e65b4" name="Changes" comment="hw11">
-      <change afterPath="$PROJECT_DIR$/lesson12/user-details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12/user.html" afterDir="false" />
+    <list default="true" id="3c2f8083-8a94-4ec8-a288-0b59ddc054cd" name="Changes" comment="hw12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson12/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12/user-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson12/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12/user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +19,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="TypeScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -46,7 +44,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bereziuk_vv/IdeaProjects/js-2023/lesson10&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bereziuk_vv/IdeaProjects/js-2023/Mini-Project&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -62,15 +60,21 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Mini-Project" />
       <recent name="$PROJECT_DIR$/lesson10" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lesson6/add" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Mini-Project" />
+      <recent name="$PROJECT_DIR$/Mini-Project/css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bf778810-a3ca-4a89-b75f-956e8f2e65b4" name="Changes" comment="" />
+      <changelist id="3c2f8083-8a94-4ec8-a288-0b59ddc054cd" name="Changes" comment="hw12" />
       <created>1692119586955</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -208,6 +212,17 @@
       <workItem from="1695460594550" duration="952000" />
       <workItem from="1695461570363" duration="1825000" />
       <workItem from="1695463427079" duration="692000" />
+      <workItem from="1695746805298" duration="3726000" />
+      <workItem from="1695916010209" duration="169000" />
+      <workItem from="1695917232509" duration="128000" />
+      <workItem from="1695917397292" duration="292000" />
+      <workItem from="1695917719350" duration="15000" />
+      <workItem from="1695917745665" duration="81000" />
+      <workItem from="1695917911968" duration="35000" />
+      <workItem from="1695917962195" duration="175000" />
+      <workItem from="1695918209842" duration="670000" />
+      <workItem from="1695919820075" duration="2723000" />
+      <workItem from="1695922562831" duration="1698000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <created>1692126471897</created>
