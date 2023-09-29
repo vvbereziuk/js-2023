@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c2f8083-8a94-4ec8-a288-0b59ddc054cd" name="Changes" comment="hw12">
+    <list default="true" id="3c2f8083-8a94-4ec8-a288-0b59ddc054cd" name="Changes" comment="Mini-project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson12/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12/user-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson12/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12/user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +220,7 @@
       <workItem from="1695917962195" duration="175000" />
       <workItem from="1695918209842" duration="670000" />
       <workItem from="1695919820075" duration="2723000" />
-      <workItem from="1695922562831" duration="1698000" />
+      <workItem from="1695922562831" duration="8650000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <created>1692126471897</created>
@@ -364,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695232421245</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Mini-project">
+      <created>1695924535935</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1695924535935</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +397,8 @@
     <MESSAGE value="hw9" />
     <MESSAGE value="hw10" />
     <MESSAGE value="hw11" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw11" />
+    <MESSAGE value="Mini-project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mini-project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
