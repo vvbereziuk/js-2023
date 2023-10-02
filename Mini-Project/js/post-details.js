@@ -28,7 +28,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 
                 let postP = document.createElement('p');
                 postP.className = 'post_body';
-                postH.innerText = `${posts.id}     ${posts.title}`;
+                postH.innerText = `${posts.id} ${posts.title}`;
                 postP.innerText = `${posts.body}`;
 
                 divPost.append(postH, postP);
